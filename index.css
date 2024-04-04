@@ -1,0 +1,173 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #FFF7AF, #FFB7EC); 
+  }
+  nav {
+    background-color: #FF7170; 
+    color: #000; 
+    padding: 15px 15px;
+    font-family: Times New Roman, Times, serif;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+  }
+  nav ul {
+    list-style-type: none;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between; 
+    flex-grow: 1; 
+  }
+  nav ul li {
+    margin-right: 20px;
+  }
+  nav ul li:last-child {
+    margin-right: 0; 
+  }
+  nav ul li a {
+    text-decoration: none; 
+    color: #000; 
+    pointer-events: none; 
+  }
+  .menu-btn {
+    cursor: pointer;
+    max-height: 20px;
+    max-width: 20px;
+  }
+  .firstcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    max-height: 300px;
+  }
+  .left-column {
+    width: 50%;
+  }
+  .right-column {
+    width: 50%;
+    background-image: url('pexels-robin-stickel-70497.jpg');
+    background-size: cover; 
+  }
+
+  .burger {
+    text-align: right;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .clickmebutton {
+    margin-left: 50px;
+    margin-top: 60px;
+    width: 200px;
+    height: 40px;
+    background-color: #FF7072;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header1 {
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    letter-spacing: 5px;
+    font-size: 50px;
+  }
+
+  .paragraph1 {
+    margin-left: 50px;
+    margin-right: 90px;
+    line-height: 1.5;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .left-div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .image-div{
+    max-height: 400px;
+    max-width: 500px;
+    margin-top: 250px;
+    margin-left: 80px;
+    margin-bottom: 300px;
+    display: flex;
+  }
+
+  .imagerachel {
+    height: 200px;
+    width: 250px;
+    margin-top: 10px;
+  }
+  .imagebronz {
+    height: 200px;
+    width: 250px;
+    margin-top: 10px;
+  }
+
+  .third-image {
+    margin-left: 20px;
+    height: 410px; 
+    width: 50%;
+    margin-top: 10px;
+  }
+  .right-div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .red-button {
+    background-color: #FF716F;
+    color: black;
+    width: 400px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 20%;
+  }
+  
+  .stext {
+    font-size: 16px;
+    margin-right: 60%;
+    margin-left: 8%;
+  }
+  .btext {
+    margin: 0;
+    font-size: 36px;
+    letter-spacing: 5px;
+    text-align: left;
+    margin-left: 10%;
+  }
+  .ctext {
+    font-size: 16px;
+    margin-right: 60%;
+  }
+  
